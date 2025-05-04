@@ -119,8 +119,7 @@ def generate_response(prompt, api_key):
 
     try:
         # Initialize the OpenAI client with the provided API key
-        client = # Removed incorrect OpenAI client instantiation
-
+        
         # Prepare the conversation history
         conversation = []
         for message in st.session_state.messages:
